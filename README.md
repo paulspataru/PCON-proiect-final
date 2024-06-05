@@ -25,6 +25,8 @@ In urmatoarea zona se pot alege valorile pt minim si maxim de durata a secventel
 
 Zona din dreapta are sliderele de volume pe fiecare canal si patchurile de unde vine sunetul pt synth si bass.
 
+Pentru Reaper, drumReaper este joaca rolul lui console.pd in mare parte.
+
 ## Setari default
 In drum track este ales pe baza unor ponderi un sample dintre cele 8 incarcate in folder. Sample-ul este taiat in 3 si se construieste un loop din alegerea random a unui slice dupa incehierea fiecaruia. Din motive de gusturi personale am inclus si un
 obiect de clipping pentru putina distorsie.
@@ -37,52 +39,25 @@ Synth-ul este sintetizat cu zgomot alb tracut prin fitre trece banda pe primele 
 De asemenea sunt generate corzi decate 4, decalate cu 2 semitonuri, ale caror nivele sunt de asemena randomizate pe acelasi principiu. In mod default, anvelopa este foarte mare dar si velocitatea este setata la 0.7.
 ![image](https://github.com/paulspataru/PCON-proiect-final/assets/168900477/8f609f76-4c43-4bf8-af34-20e55a805625)
 
-## (Istoric)
+## Istoric
 
-(13.05) ...
+Final aprilie 2024:
+- drum track-ul si randomiserele pentru ponderate
 
-(3.06) ...
+Mijlocul lui mai 2024:
+- prima varianta de bas track si primul sintetizator
 
-(X.06) ...
+Final mai 2024:
+- refacut sintetizator
+- patch-ul console.pd pt control si UI
+- patchurile pentru reaper
 
-## (Link-uri)
-...
+Ultimele retusuri 3-5 inuie:
+- adaugat optinuea pentru fara nota pe bass
 
-# Dezvoltarea proiectului
+## Link-uri
+Inspiratie principala:
+[...](https://www.youtube.com/watch?v=OwkacnSUn10&t=89s)
 
-Pentru început:
 
-1. Creează-ți cont pe Github
-2. Download și install [Github Desktop](https://desktop.github.com/)
-3. Citește [acest ghid](https://charlesmartin.com.au/blog/2020/08/09/student-project-repository) și ține la îndemână [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet).
-
-Apoi, procesul este următorul (inspirat de [aici](https://cs.anu.edu.au/courses/comp1720/deliverables/05-major-project/#submission-process)):
-
-1. *fork* al acestui template către propriul tău cont de Github
-
-![](assets/fork.gif)
-
-_(dacă preferi cumva ca repo-ul să nu fie vizibil de către public, îl poți seta ca Private din Settings - "Change visibility". Atunci trebuie să mă adaugi drept colaborator, ca eu să am acces.)_
-
-2. *clone* al repo-ului din Github Desktop pentru a-l downloada local
-
-![](assets/clone.gif)
-
-3. *commit* și *push* pe măsură ce lucrezi la proiect. Ultima versiune push-ată pe server înainte de deadline va conta pentru evaluare.
-
-![](assets/commit.gif)
-
-## Elemente obligatorii
-
-1. Acest readme completat. Titlu, descriere, mod de utilizare, istoric, link-uri utile.
-
-   Poți include și imagini și chiar [gif-uri animate](https://www.screentogif.com/), sau link-uri către materiale audio/video.
-   
-   Vezi [aici](https://charlesmartin.com.au/blog/2020/08/09/student-project-repository) mai multe sugestii.
-
-2. [Declarația de originalitate](statement-of-originality.yml) completată. Tot ce nu este inclus acolo va fi considerat 100% contribuție proprie.
-
-    *(formatul este adaptat de [aici](https://gitlab.cecs.anu.edu.au/comp1720/2018/comp1720-2018-major-project/-/blob/master/statement-of-originality.yml). Da, este un pic ironic să refolosim un doc [de altundeva](https://cs.anu.edu.au/courses/comp1720/resources/faq/#how-do-i-fill-out-my-statement-of-originality), dar menționăm sursa deci nu este plagiat!)*
-
-3. Proiectul în sine. Tot codul trebuie să fie prezent, proiectul trebuie să poată rula conform instrucțiunilor din readme. Dacă e nevoie de asset-uri mari (sunete, video etc), [folosește Git LFS](https://git-lfs.github.com/) sau include link de download în instrucțiunile de instalare.
 
